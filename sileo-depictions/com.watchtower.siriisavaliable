@@ -1,7 +1,7 @@
 {
     "minVersion": "0.1",
-    "headerImage": "https://i.imgur.com/mfDdjoO.png",
-    "tintColor": "#fa8072",
+    "headerImage": "https://i.imgur.com/HI0bixn.png",
+    "tintColor": "#ff00ff",
     "tabs": [
         {
             "tabname": "Details",
