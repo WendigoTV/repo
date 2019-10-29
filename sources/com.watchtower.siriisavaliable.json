@@ -13,7 +13,7 @@
                    "title": "SiriIsAvaliable"
                },
                {
-                   "markdown": "Make Siri choose her way to connect! \\\"Siri not avaliable\\\" is no more!",
+                   "markdown": "Make Siri choose her way to connect! \\"Siri not avaliable\\" is no more!",
                    "class": "DepictionMarkdownView",
                    "useSpacing": true
                },
