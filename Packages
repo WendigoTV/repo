@@ -1,0 +1,14 @@
+Package: com.watchtower.siriisavaliable
+Name: SiriIsAvaliable
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Make Siri choose her way to connect! "Siri not avaliable" is no more!
+Maintainer: WendigoTV
+Author: WendigoTV
+Section: Tweaks
+Depends: mobilesubstrate
+Filename: debs/com.watchtower.siriisavaliable_1.0-2+debug-10+debug_iphoneos-arm.deb
+Size: 46002
+MD5sum: 88f1a70e0140f003bbe4e102034db8c3
+SHA1: 4773315ad6085c639def9ce725a577b969c4579f
+SHA256: 2cca72170b9a3cd2847de7318c75f030e6334a7bb7d767592553b2114f7d23e9
