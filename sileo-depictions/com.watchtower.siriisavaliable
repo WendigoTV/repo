@@ -13,7 +13,19 @@
                     "class": "DepictionSubheaderView"
                 },
                 {
-                    "markdown": "Make Siri choose her way to connect! *Siri not avaliable* is no more!",
+                    "markdown": "Just hold your button or simply say *Hey Siri!*
+                                Siri will always choose the right way to connect you and process your wishes with more ease!
+
+
+                                Features:
+                                -WiFi in sight? Siri knows that! Known networks will be immediately recognized and connection will be made
+                                -No WiFi - no problem! Your cellular data are always avaliable for both you and Siri!
+                                -After finishing her work, unnecesarry data drain is never a thing! Siri knows how to turn them off, as well as unconnected WiFi
+
+
+                                Known bugs:
+                                -When EarPods or AirPods are connected, you may hear a cut *Siri not available* phrase, waiting to be fixed
+                                -The success rate of a proper WiFi connection is not 100%, the first one after respring will usually fail",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
