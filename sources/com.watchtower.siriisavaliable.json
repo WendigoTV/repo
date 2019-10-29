@@ -13,7 +13,7 @@
                    "title": "SiriIsAvaliable"
                },
                {
-                   "markdown": "Make Siri choose her way to connect! \\\"Siri not avaliable\\\" is no more!",
+                   "markdown": "Make Siri choose her way to connect! \\*Siri not avaliable\\* is no more!",
                    "class": "DepictionMarkdownView",
                    "useSpacing": true
                },
@@ -36,7 +36,7 @@
                    "useBoldText": true,
                    "class": "DepictionMarkdownView",
                    "useBottomMargin": false,
-                   "markdown": "Just hold your button or simply say \\\"Hey Siri!\\\"\r\nSiri will always choose the right way to connect you and process your wishes with more ease!\r\n\r\nFeatures:\r\n-WiFi in sight? Siri knows that! Known networks will be immediately recognized and connection will be made.\r\n-No WiFi - no problem! Your cellular data are always avaliable for both you and Siri!\r\n-After finishing her work, unnecesarry data drain is never a thing! Siri knows how to turn them off, as well as unconnected WiFi\r\n\r\nKnown bugs:\r\n- When EarPods or AirPods are connected, you may hear a cut \\"Siri not available\\" phrase, waiting to be fixed.\r\n-The success rate of a proper WiFi connection is not 100%, the first one after respring will usually fail\r\n",
+                   "markdown": "Just hold your button or simply say \\*Hey Siri!\\*\r\nSiri will always choose the right way to connect you and process your wishes with more ease!\r\n\r\nFeatures:\r\n-WiFi in sight? Siri knows that! Known networks will be immediately recognized and connection will be made.\r\n-No WiFi - no problem! Your cellular data are always avaliable for both you and Siri!\r\n-After finishing her work, unnecesarry data drain is never a thing! Siri knows how to turn them off, as well as unconnected WiFi\r\n\r\nKnown bugs:\r\n- When EarPods or AirPods are connected, you may hear a cut \\"Siri not available\\" phrase, waiting to be fixed.\r\n-The success rate of a proper WiFi connection is not 100%, the first one after respring will usually fail\r\n",
                    "title": "markdown-description"
                },
                {
