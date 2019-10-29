@@ -1,105 +1,78 @@
 {
-   "minVersion": "0.1",
    "class": "DepictionTabView",
-   "tintColor": "#00ffbf",
-   "headerImage": "https://raw.githubusercontent.com/WendigoTV/repo/master/sources/header.png",
+   "minVersion": "0.1",
    "tabs": [
-      {
-         "tabname": "Details",
-         "class": "DepictionStackView",
-         "tintColor": "#00ffbf",
-         "views": [
-            {
-               "class": "DepictionSubheaderView",
-               "useBoldText": true,
-               "useBottomMargin": false,
-               "title": "Description"
-            },
-            {
-               "class": "DepictionMarkdownView",
-               "markdown": "<p>Make Siri choose her way to connect! \"Siri not avaliable\" is no more!<\/p>",
-               "useRawFormat": true
-            },
-            {
-               "class": "DepictionSubheaderView",
-               "useBoldText": true,
-               "useBottomMargin": false,
-               "title": ""
-            },
-            {
-               "class": "DepictionScreenshotsView",
-               "itemCornerRadius": 6,
-               "itemSize": "{160, 284.44444444444}",
-               "screenshots": [
-                  {
-                     "accessibilityText": "Screenshot",
-                     "url": "Screenshot URL 1",
-                     "fullSizeURL": "Screenshot URL 1"
-                  }
-               ]
-            },
-            {
-               "class": "DepictionSeparatorView"
-            },
-            {
-               "class": "DepictionSubheaderView",
-               "useBoldText": true,
-               "useBottomMargin": false,
-               "title": "Information"
-            },
-            {
-               "class": "DepictionTableTextView",
-               "title": "Author",
-               "text": "WendigoTV"
-            },
-            {
-               "class": "DepictionTableTextView",
-               "title": "Version",
-               "text": "1.0"
-            },
-            {
-               "class": "DepictionTableTextView",
-               "title": "Price",
-               "text": "Free"
-            },
-            {
-               "class": "DepictionSpacerView",
-               "spacing": 16
-            },
-            {
-               "class": "DepictionStackView",
-               "views": [
-                  {
-                     "class": "DepictionTableButtonView",
-                     "title": "Support",
-                     "action": "https://twitter.com/WExpl0it",
-                     "openExternal": true
-                  }
-               ]
-            },
-            {
-               "class": "DepictionSpacerView",
-               "spacing": 16
-            }
-         ]
-      },
-      {
-         "tabname": "Changelog",
-         "class": "DepictionStackView",
-         "tintColor": "#00ffbf",
-         "views": [
-            {
-               "class": "DepictionSubheaderView",
-               "useBoldText": true,
-               "useBottomMargin": false,
-               "title": "Version Number"
-            },
-            {
-               "class": "DepictionMarkdownView",
-               "markdown": "<ul>\n<li>Version Changes<\/li>\n<\/ul>",
-               "useRawFormat": true
-            }
-         ]
-      }
-   ]
+       {
+           "class": "DepictionStackView",
+           "tabname": "Details",
+           "views": [
+               {
+                   "useBoldText": true,
+                   "class": "DepictionSubheaderView",
+                   "useBottomMargin": false,
+                   "title": "SiriIsAvaliable"
+               },
+               {
+                   "markdown": "Make Siri choose her way to connect! \\\"Siri not avaliable\\\" is no more!",
+                   "class": "DepictionMarkdownView",
+                   "useSpacing": true
+               },
+               {
+                   "class": "DepictionSpacerView",
+                   "spacing": 8
+               },
+               {
+                   "class": "DepictionScreenshotsView",
+                   "itemCornerRadius": 6,
+                   "screenshots": [
+                       {
+                           "accessibilityText": "Screenshot0",
+                           "url": ""
+                       }
+                   ],
+                   "itemSize": "{160, 275.41333333333336}"
+               },
+               {
+                   "useBoldText": true,
+                   "class": "DepictionMarkdownView",
+                   "useBottomMargin": false,
+                   "markdown": "Just hold your button or simply say \\\"Hey Siri!\\\"\r\nSiri will always choose the right way to connect you and process your wishes with more ease!\r\n\r\nFeatures:\r\n-WiFi in sight? Siri knows that! Known networks will be immediately recognized and connection will be made.\r\n-No WiFi - no problem! Your cellular data are always avaliable for both you and Siri!\r\n-After finishing her work, unnecesarry data drain is never a thing! Siri knows how to turn them off, as well as unconnected WiFi\r\n\r\nKnown bugs:\r\n- When EarPods or AirPods are connected, you may hear a cut \\\"Siri not available\\\" phrase, waiting to be fixed.\r\n-The success rate of a proper WiFi connection is not 100%, the first one after respring will usually fail\r\n",
+                   "title": "markdown-description"
+               },
+               {
+                   "class": "DepictionSeparatorView"
+               },
+               {
+                   "class": "DepictionTableTextView",
+                   "text": "1.0.0",
+                   "title": "Version"
+               },
+               {
+                   "class": "DepictionTableTextView",
+                   "text": "10-29-2019",
+                   "title": "Released"
+               },
+               {
+                   "class": "DepictionTableTextView",
+                   "text": "Free",
+                   "title": "Price"
+               },
+               {
+                   "class": "DepictionSpacerView",
+                   "spacing": 8
+               },
+               {
+                   "class": "DepictionTableTextView",
+                   "text": "WendigoTV",
+                   "title": "Developer"
+               },
+               {
+                   "class": "DepictionSpacerView",
+                   "spacing": 8
+               }
+           ]
+       }
+   ],
+   "tintColor": "#3f3f3f",
+   "headerImage": "https://raw.githubusercontent.com/WendigoTV/repo/master/sources/header.png"
 }
