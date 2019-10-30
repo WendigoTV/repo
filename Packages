@@ -3,7 +3,7 @@ Name: SiriIsAvaliable
 Version: 1.0
 Architecture: iphoneos-arm
 Description: Make Siri choose her way to connect! "Siri not avaliable" is no more!
-Depiction: https://raw.githubusercontent.com/WendigoTV/repo/master/sileo-depictions/com.watchtower.siriisavaliable
+Depiction: https://github.com/WendigoTV/repo/tree/master/depictions/com.watchtower.siriisavaliable
 SileoDepiction: https://raw.githubusercontent.com/WendigoTV/repo/master/sileo-depictions/com.watchtower.siriisavaliable
 Maintainer: WendigoTV
 Author: WendigoTV
