@@ -72,6 +72,11 @@
                     "class": "DepictionTableButtonView"
                 },
                 {
+                    "title": "Contact Me",
+                    "action": "https://www.twitter.com/WExpl0it",
+                    "class": "DepictionTableButtonView"
+                },
+                {
                     "class": "DepictionSpacerView",
                     "spacing": 8
                 }
