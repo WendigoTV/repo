@@ -67,6 +67,11 @@
                     "title": "Developer"
                 },
                 {
+                    "title": "Support Me",
+                    "action": "https://www.patreon.com/user?u=26353364",
+                    "class": "DepictionTableButtonView"
+                },
+                {
                     "class": "DepictionSpacerView",
                     "spacing": 8
                 }
