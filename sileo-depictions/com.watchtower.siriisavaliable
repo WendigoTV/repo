@@ -1,93 +1,78 @@
 {
+    "class": "DepictionTabView",
     "minVersion": "0.1",
-    "headerImage": "https://i.imgur.com/e33ZLlF.png",
-    "tintColor": "#ff00ff",
     "tabs": [
         {
+            "class": "DepictionStackView",
             "tabname": "Details",
             "views": [
                 {
-                    "title": "SiriIsAvaliable",
                     "useBoldText": true,
+                    "class": "DepictionSubheaderView",
                     "useBottomMargin": false,
-                    "class": "DepictionSubheaderView"
+                    "title": "SiriIsAvaliable"
                 },
                 {
-                    "markdown": "Make Siri choose her way to connect! *Siri not avaliable* is no more!",
-                    "useSpacing": true,
-                    "class": "DepictionMarkdownView"
+                    "markdown": "Make Siri choose her way to connect! \"Siri not avaliable\" is no more!",
+                    "class": "DepictionMarkdownView",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot0",
+                            "url": ""
+                        }
+                    ],
+                    "itemSize": "{160, 275.41333333333336}"
+                },
+                {
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView",
+                    "useBottomMargin": false,
+                    "markdown": "Just hold your button or simply say *Hey Siri!*\r\nSiri will always choose the right way to connect you and process your wishes with more ease!\r\n\r\nFeatures:\r\n-WiFi in sight? Siri knows that! Known networks will be immediately recognized and connection will be made\r\n-No WiFi - no problem! Your cellular data are always avaliable for both you and Siri!\r\n-After finishing her work, unnecesarry data drain is never a thing! Siri knows how to turn them off, as well as unconnected WiFi\r\n\r\nKnown bugs:\r\n-When EarPods or AirPods are connected, you may hear a cut *Siri not available* phrase, waiting to be fixed\r\n-The success rate of a proper WiFi connection is not 100%, the first one after respring will usually fail",
+                    "title": "markdown-description"
                 },
                 {
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "title": "Latest Version",
-                    "class": "DepictionHeaderView"
-                },
-                {
-                    "title": "Version",
+                    "class": "DepictionTableTextView",
                     "text": "1.0.0",
-                    "class": "DepictionTableTextView"
+                    "title": "Version"
                 },
                 {
-                    "title": "Released",
-                    "text": "2019/10/29",
-                    "class": "DepictionTableTextView"
+                    "class": "DepictionTableTextView",
+                    "text": "10-30-2019",
+                    "title": "Released"
                 },
                 {
-                    "title": "Price",
+                    "class": "DepictionTableTextView",
                     "text": "Free",
-                    "class": "DepictionTableTextView"
+                    "title": "Price"
                 },
                 {
-                    "title": "Developer",
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
                     "text": "WendigoTV",
-                    "class": "DepictionTableTextView"
+                    "title": "Developer"
                 },
                 {
-                    "title": "Contact Support",
-                    "action": "twitter.com/WExpl0it",
-                    "class": "DepictionTableButtonView"
-                },
-                {
-                    "spacing": 16,
-                    "class": "DepictionSpacerView"
-                },
-                {
-                    "spacing": 20,
-                    "class": "DepictionSpacerView"
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
                 }
-            ],
-            "class": "DepictionStackView"
-        },
-        {
-            "tabname": "Changelog",
-            "views": [
-                {
-                    "title": "1.0.0",
-                    "useBoldText": true,
-                    "useBottomMargin": true,
-                    "class": "DepictionSubheaderView"
-                },
-                {
-                    "markdown": "",
-                    "useSpacing": false,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "title": "1.0.0",
-                    "useBoldText": true,
-                    "useBottomMargin": true,
-                    "class": "DepictionSubheaderView"
-                },
-                {
-                    "markdown": "",
-                    "useSpacing": false,
-                    "class": "DepictionMarkdownView"
-                }
-            ],
-            "class": "DepictionStackView"
+            ]
         }
     ],
-    "class": "DepictionTabView"
+    "tintColor": "#ff00ff",
+    "headerImage": "https://i.imgur.com/e33ZLlF.png"
 }
